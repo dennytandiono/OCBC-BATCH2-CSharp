@@ -1,0 +1,16 @@
+D:\hacktiv8\Sesi05\Program4\obj\Debug\net5.0\Program4.csproj.AssemblyReference.cache
+D:\hacktiv8\Sesi05\Program4\obj\Debug\net5.0\Program4.GeneratedMSBuildEditorConfig.editorconfig
+D:\hacktiv8\Sesi05\Program4\obj\Debug\net5.0\Program4.AssemblyInfoInputs.cache
+D:\hacktiv8\Sesi05\Program4\obj\Debug\net5.0\Program4.AssemblyInfo.cs
+D:\hacktiv8\Sesi05\Program4\obj\Debug\net5.0\Program4.csproj.CoreCompileInputs.cache
+D:\hacktiv8\Sesi05\Program4\bin\Debug\net5.0\Program4.exe
+D:\hacktiv8\Sesi05\Program4\bin\Debug\net5.0\Program4.deps.json
+D:\hacktiv8\Sesi05\Program4\bin\Debug\net5.0\Program4.runtimeconfig.json
+D:\hacktiv8\Sesi05\Program4\bin\Debug\net5.0\Program4.runtimeconfig.dev.json
+D:\hacktiv8\Sesi05\Program4\bin\Debug\net5.0\Program4.dll
+D:\hacktiv8\Sesi05\Program4\bin\Debug\net5.0\ref\Program4.dll
+D:\hacktiv8\Sesi05\Program4\bin\Debug\net5.0\Program4.pdb
+D:\hacktiv8\Sesi05\Program4\obj\Debug\net5.0\Program4.dll
+D:\hacktiv8\Sesi05\Program4\obj\Debug\net5.0\ref\Program4.dll
+D:\hacktiv8\Sesi05\Program4\obj\Debug\net5.0\Program4.pdb
+D:\hacktiv8\Sesi05\Program4\obj\Debug\net5.0\Program4.genruntimeconfig.cache
