@@ -1,6 +1,6 @@
 using System;
 
-namespace TodoAppWithJWT
+namespace TodoApp
 {
     public class WeatherForecast
     {

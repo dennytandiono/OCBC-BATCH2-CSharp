@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\hacktiv8\\Sesi10\\Belajar\\TodoAppWithJWT\\TodoAppWithJWT.csproj": {}
+    "D:\\hacktiv8\\Sesi10\\Belajar\\TodoAppWithJWT\\TodoApp.csproj": {}
   },
   "projects": {
-    "D:\\hacktiv8\\Sesi10\\Belajar\\TodoAppWithJWT\\TodoAppWithJWT.csproj": {
+    "D:\\hacktiv8\\Sesi10\\Belajar\\TodoAppWithJWT\\TodoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\hacktiv8\\Sesi10\\Belajar\\TodoAppWithJWT\\TodoAppWithJWT.csproj",
-        "projectName": "TodoAppWithJWT",
-        "projectPath": "D:\\hacktiv8\\Sesi10\\Belajar\\TodoAppWithJWT\\TodoAppWithJWT.csproj",
+        "projectUniqueName": "D:\\hacktiv8\\Sesi10\\Belajar\\TodoAppWithJWT\\TodoApp.csproj",
+        "projectName": "TodoApp",
+        "projectPath": "D:\\hacktiv8\\Sesi10\\Belajar\\TodoAppWithJWT\\TodoApp.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
         "outputPath": "D:\\hacktiv8\\Sesi10\\Belajar\\TodoAppWithJWT\\obj\\",
         "projectStyle": "PackageReference",
@@ -54,6 +54,26 @@
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "NuGet.CommandLine.XPlat": {
+              "target": "Package",
+              "version": "[5.11.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
