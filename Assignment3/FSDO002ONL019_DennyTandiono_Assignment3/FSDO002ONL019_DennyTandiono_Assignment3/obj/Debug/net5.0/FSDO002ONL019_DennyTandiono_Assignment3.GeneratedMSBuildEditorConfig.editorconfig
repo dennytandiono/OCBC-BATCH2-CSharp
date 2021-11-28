@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = FSDO002ONL019_DennyTandiono_Assignment3
+build_property.ProjectDir = D:\hacktiv8\Assignment3\FSDO002ONL019_DennyTandiono_Assignment3\FSDO002ONL019_DennyTandiono_Assignment3\

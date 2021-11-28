@@ -26,7 +26,7 @@ namespace Kantor_WebAPI.Models
             using (MySqlConnection conn = GetConnection())
             {
                 conn.Open();
-                MySqlCommand cmd = new MySqlCommand("insert into employee(nama, jenis_kelamin, alamat) values(@nama, @jenisKelamin, @alamat)", conn);
+                MySqlCommand cmd = new MySqlCommand("INSERT INTO employee(nama, jenis_kelamin, alamat) VALUES(@nama, @jenisKelamin, @alamat)", conn);
                 
                     cmd.Parameters.AddWithValue("@nama", data.nama);
                     cmd.Parameters.AddWithValue("@jenisKelamin", data.jenisKelamin);
@@ -64,7 +64,7 @@ namespace Kantor_WebAPI.Models
             using (MySqlConnection conn = GetConnection())
             {
                 conn.Open();
-                MySqlCommand cmd = new MySqlCommand("delete from employee where id= @id", conn);
+                MySqlCommand cmd = new MySqlCommand("DELETE FROM employee WHERE id= @id", conn);
                 cmd.Parameters.AddWithValue("@id", id);
                 using (MySqlDataReader reader = cmd.ExecuteReader())
                 {
