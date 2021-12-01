@@ -1,17 +1,104 @@
 {
   "format": 1,
   "restore": {
-    "D:\\hacktiv8\\Sesi12\\TestSesi12\\TestSesi12\\TestSesi12.csproj": {}
+    "D:\\hacktiv8\\Sesi12\\UnitTest_Mock\\TestSesi12\\TestSesi12.csproj": {}
   },
   "projects": {
-    "D:\\hacktiv8\\Sesi12\\TestSesi12\\TestSesi12\\TestSesi12.csproj": {
+    "D:\\hacktiv8\\Sesi12\\UnitTest_Mock\\TestSesi12\\TestSesi12.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\hacktiv8\\Sesi12\\TestSesi12\\TestSesi12\\TestSesi12.csproj",
+        "projectUniqueName": "D:\\hacktiv8\\Sesi12\\UnitTest_Mock\\TestSesi12\\TestSesi12.csproj",
         "projectName": "TestSesi12",
-        "projectPath": "D:\\hacktiv8\\Sesi12\\TestSesi12\\TestSesi12\\TestSesi12.csproj",
+        "projectPath": "D:\\hacktiv8\\Sesi12\\UnitTest_Mock\\TestSesi12\\TestSesi12.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\hacktiv8\\Sesi12\\TestSesi12\\TestSesi12\\obj\\",
+        "outputPath": "D:\\hacktiv8\\Sesi12\\UnitTest_Mock\\TestSesi12\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\hacktiv8\\Sesi12\\UnitTest_Mock\\UnitTest_Mock\\UnitTest_Mock.csproj": {
+                "projectPath": "D:\\hacktiv8\\Sesi12\\UnitTest_Mock\\UnitTest_Mock\\UnitTest_Mock.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\hacktiv8\\Sesi12\\UnitTest_Mock\\UnitTest_Mock\\UnitTest_Mock.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\hacktiv8\\Sesi12\\UnitTest_Mock\\UnitTest_Mock\\UnitTest_Mock.csproj",
+        "projectName": "UnitTest_Mock",
+        "projectPath": "D:\\hacktiv8\\Sesi12\\UnitTest_Mock\\UnitTest_Mock\\UnitTest_Mock.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\hacktiv8\\Sesi12\\UnitTest_Mock\\UnitTest_Mock\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,25 +130,27 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.NET.Test.Sdk": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[16.9.4, )"
+              "version": "[5.0.11, )"
             },
-            "coverlet.collector": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.2, )"
+              "version": "[5.0.11, )"
             },
-            "xunit": {
+            "MySql.Data": {
               "target": "Package",
-              "version": "[2.4.1, )"
+              "version": "[8.0.27, )"
             },
-            "xunit.runner.visualstudio": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[2.4.3, )"
+              "version": "[5.6.3, )"
             }
           },
           "imports": [
@@ -75,6 +164,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
